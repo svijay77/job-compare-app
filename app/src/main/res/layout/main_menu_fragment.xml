@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Job Comparison Utility"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@android:color/black" />
+
+    <!-- <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Current Job Status:"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtCurrentJobStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="10sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Job Offers Status:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/txtJobOffersStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+        android:textColor="@android:color/black" /> -->
+
+    <Button
+        android:id="@+id/addEditCurrentJob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add/edit current job"
+        android:textAllCaps="false"
+        style="@style/SquareButton" />
+
+    <Button
+        android:id="@+id/addJobOffers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add job offer"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        style="@style/SquareButton" />
+
+    <Button
+        android:id="@+id/compareEditJobOffers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="compare job and job offers"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        style="@style/SquareButton" />
+
+    <Button
+        android:id="@+id/editSettings"
+        style="@style/SquareButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="edit comparison settings"
+        android:textAllCaps="false" />
+
+</LinearLayout>
